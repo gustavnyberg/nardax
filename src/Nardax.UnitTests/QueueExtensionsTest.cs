@@ -8,7 +8,7 @@ namespace Nardax.UnitTests
   [TestClass]
   public class QueueExtensionsTest
   {
-    private Queue<string> _queue;
+    
 
     public QueueExtensionsTest()
     {
