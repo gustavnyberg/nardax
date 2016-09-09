@@ -14,12 +14,12 @@ namespace Nardax.UnitTests
     {
       _queue = new Queue<string>();
       _queue.Enqueue("aa");
-      _queue.Enqueue("bb");
+      _queue.Enqueue("bb");zzzzzzzzzzzzz
       _queue.Enqueue("cc");
     }
 
     [TestMethod]
-    public void EnqueueTest()
+    public void EnqueueTest()zzzzzzzzzzzzzzzzzz
     {
       _queue.EnqueueRange(new [] {"dd", "ee"});
 
