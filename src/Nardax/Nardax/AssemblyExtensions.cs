@@ -2,6 +2,8 @@
 using System.Configuration;
 using System.Reflection;
 
+//Hello world
+
 namespace Nardax
 {
     public static class AssemblyExtensions
