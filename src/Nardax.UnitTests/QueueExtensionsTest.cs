@@ -1,9 +1,7 @@
-﻿using System;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
-
-namespace Nardax.UnitTests
+﻿namespace Nardax.UnitTests
 {
   using System.Collections.Generic;
+  using Microsoft.VisualStudio.TestTools.UnitTesting;
 
   [TestClass]
   public class QueueExtensionsTest
