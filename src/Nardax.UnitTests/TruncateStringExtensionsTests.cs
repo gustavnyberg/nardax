@@ -1,8 +1,7 @@
-﻿using System;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
-
-namespace Nardax.Tests
+﻿namespace Nardax.Tests
 {
+  using Microsoft.VisualStudio.TestTools.UnitTesting;
+
   [TestClass]
   public class TruncateStringExtensionsTests
   {
