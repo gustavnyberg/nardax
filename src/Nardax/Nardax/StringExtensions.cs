@@ -4,6 +4,7 @@ using System.ComponentModel;
 namespace Nardax
 {
   using System.Text;
+  using System.Text.RegularExpressions;
 
   // Klipp av en sträng från vänster
   public static class StringExtensions
@@ -32,6 +33,11 @@ namespace Nardax
       return value.Substring(0, maxLength);
     }
 
+    public static string RemoveWhiteChars(this string value)
+    {
+      return Regex.Replace(value, "\\s", "");
+    }
+
     public static string RepeatMe(this string value, int times)
     {
       var sb  = new StringBuilder();
@@ -42,6 +48,5 @@ namespace Nardax
       }
       return sb.ToString();
     }
-
   }
 }
